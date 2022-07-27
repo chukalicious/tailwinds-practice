@@ -20,7 +20,6 @@ const Navbar = () => {
         Fitlab
       </h1>
       <BiMenuAltRight onClick={handleClick} />
-      {}
       {menuOpen ? <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> : null}
     </div>
   );
