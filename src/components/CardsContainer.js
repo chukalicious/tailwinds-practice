@@ -4,11 +4,10 @@ import { images } from "../data";
 const CardContainer = () => {
   const urls = images;
 
-  console.log("urls", urls);
   return (
     <div>
-      {urls.map((img) => (
-        <Card url={img} />
+      {urls.map((img, i) => (
+        <Card url={img} key={i} />
       ))}
     </div>
   );
