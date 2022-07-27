@@ -12,7 +12,7 @@ const Menu = (props) => {
   return (
     // make very wide in the vw
     // put the icon on the opposite side of the <li>s
-    <div>
+    <div className="z-30 absolute top-0 right-0 bg-fuchsia-600">
       <BiX onClick={handleClose} />
       <ul>
         <li>Home</li>

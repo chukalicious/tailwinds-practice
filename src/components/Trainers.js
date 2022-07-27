@@ -1,7 +1,7 @@
 const Trainers = () => {
   return (
-    <div id="trainers">
-      <h3>Trainers</h3>
+    <div id="trainers" className="flex">
+      <h3 className="text-3xl">Trainers</h3>
       <img src="https://picsum.photos/400/400?random=1" alt="placeholder" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
