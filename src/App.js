@@ -1,7 +1,7 @@
 import HeroComponent from "./components/HeroComponent";
 import Navbar from "./components/Navbar";
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
+import Exercises from "./components/Exercises";
+import Trainers from "./components/Trainers";
 import SponsorsBanner from "./components/SponsorsBanner";
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <HeroComponent />
       <SponsorsBanner />
-      <Section1 />
-      <Section2 />
+      <Exercises />
+      <Trainers />
     </div>
   );
 }

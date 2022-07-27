@@ -20,8 +20,12 @@ const Menu = (props) => {
       <BiX onClick={handleClose} />
       <ul>
         <li>Home</li>
-        <li>Exercises</li>
-        <li>Trainers</li>
+        <li>
+          <a href="#exercises">Exercises</a>
+        </li>
+        <li>
+          <a href="#trainers">Trainers</a>
+        </li>
         <li>About Us</li>
         <li>Login</li>
       </ul>
