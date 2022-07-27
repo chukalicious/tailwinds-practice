@@ -5,7 +5,6 @@ import { IoMdFitness } from "react-icons/io";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  console.log("Navbar: menuOpen: ", menuOpen);
 
   const handleClick = () => {
     setMenuOpen(!menuOpen);
