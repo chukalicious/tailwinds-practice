@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Exercises from "./components/Exercises";
 import Trainers from "./components/Trainers";
 import SponsorsBanner from "./components/SponsorsBanner";
+import CardContainer from "./components/CardsContainer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SponsorsBanner />
       <Exercises />
       <Trainers />
+      <CardContainer />
     </div>
   );
 }
