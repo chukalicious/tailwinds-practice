@@ -13,14 +13,14 @@ const SponsorsBanner = () => {
   // maybe scrolling
   // generic icons will be enough for now
   return (
-    <div className="flex justify-between my-5 px-4">
-      <FaAtlassian className="text-5xl" />
-      <FaAirbnb className="text-5xl" />
-      <FaApple className="text-5xl" />
-      <FaSellsy className="text-5xl" />
-      <FaSkype className="text-5xl" />
-      <FaStudiovinari className="text-5xl" />
-      <FaTripadvisor className="text-5xl" />
+    <div className="flex justify-between px-3 pt-7 pb-10 bg-pink-50">
+      <FaAtlassian className="text-4xl text-pink-600" />
+      <FaAirbnb className="text-4xl text-pink-600" />
+      <FaApple className="text-4xl text-pink-600" />
+      <FaSellsy className="text-4xl text-pink-600" />
+      <FaSkype className="text-4xl text-pink-600" />
+      <FaStudiovinari className="text-4xl text-pink-600" />
+      <FaTripadvisor className="text-4xl text-pink-600" />
     </div>
   );
 };
