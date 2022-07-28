@@ -1,7 +1,7 @@
 const Trainers = () => {
   return (
     <div
-      id="exercises"
+      id="trainers"
       className="flex flex-col py-4 my-9 bg-pink-50 min-w-full md:flex-row"
     >
       {" "}
