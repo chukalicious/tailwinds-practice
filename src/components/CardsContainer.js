@@ -1,14 +1,15 @@
 import Card from "./Card";
-import { images } from "../data";
+import { data } from "../data";
 
 const CardContainer = () => {
-  const urls = images;
-
   return (
-    <div>
-      {urls.map((img, i) => (
-        <Card url={img} key={i} />
-      ))}
+    <div className="flex-col min-w-full ">
+      <h2>Popular</h2>
+      <div className="flex flex-col">
+        {data.map((card, i) => (
+          <Card cardData={card} key={i} />
+        ))}
+      </div>
     </div>
   );
 };
