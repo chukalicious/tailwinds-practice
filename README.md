@@ -1,1 +1,1 @@
-# Landing Page styled with TailwindsCSS
+# Landing Page styled with TailwindCSS
