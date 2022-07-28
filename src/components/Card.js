@@ -1,5 +1,4 @@
 const Card = (props) => {
-  console.log("Card: props.url: ", props);
   const { cardData } = props;
   return (
     <div className="mb-16 bg-pink-50 rounded-3xl pb-8 ">
