@@ -13,13 +13,13 @@ const Exercises = () => {
           egestas. Cras pulvinar mattis nunc sed blandit libero. Cursus mattis
           molestie a iaculis at erat pellentesque adipiscing.
         </p>
-        <button className="flex text-3xl ml-5 w-fit mb-8 mt-4 bg-black text-white px-7 py-5 rounded-xl md:text-black md:bg-white md:text-2xl md:ml-20 md: md:rounded-none md:p-1 md:my-2 md:underline md:decoration-pink-600 md:decoration-solid md:decoration-2 md:underline-offset-8">
+        <button className="flex text-3xl ml-5 w-fit mb-8 mt-4 bg-pink-600 text-white px-7 py-5 rounded-xl md:text-black md:bg-white md:text-2xl md:ml-20 md: md:rounded-none md:p-1 md:my-2 md:underline md:decoration-pink-600 md:decoration-solid md:decoration-2 md:underline-offset-8">
           Learn More
         </button>
       </div>
       <div className="flex w-full mt-4 justify-center md:w-1/2 md:p-8 ">
         <img
-          className="mx-1 mb-12 md:rounded-3xl "
+          className="mx-1 mb-12 md:rounded-3xl"
           alt="random"
           src="https://picsum.photos/600/400?random=2"
         />{" "}
