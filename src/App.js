@@ -5,6 +5,7 @@ import Exercises from "./components/Exercises";
 import Trainers from "./components/Trainers";
 import SponsorsBanner from "./components/SponsorsBanner";
 import CardContainer from "./components/CardsContainer";
+import About from "./components/About";
 
 function App() {
   const [detectSize, setDetectSize] = useState({
@@ -36,6 +37,7 @@ function App() {
       <Exercises />
       <Trainers />
       <CardContainer />
+      <About />
     </div>
   );
 }
