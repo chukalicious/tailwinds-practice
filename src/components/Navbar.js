@@ -13,12 +13,15 @@ const Navbar = () => {
   return (
     // nav flex-row, space between
     //menu hidden, needs state
-    <div className="flex justify-between items-center ">
-      <IoMdFitness className="text-5xl px-2" />
-      <h1 className="text-pink-400 text-center font-extralight max-w-xl text-5xl py-2 ">
+    <div className="flex justify-between items-center h-1/5 p-7 w-full bg-pink-50 ">
+      <IoMdFitness className="text-6xl px-2  text-pink-600" />
+      <h1 className="text-pink-600 text-center font-extralight max-w-xl text-5xl py-2 ">
         Fitlab
       </h1>
-      <BiMenuAltRight className="text-5xl px-2" onClick={handleClick} />
+      <BiMenuAltRight
+        className="text-6xl px-2 text-pink-600"
+        onClick={handleClick}
+      />
       {menuOpen ? <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> : null}
     </div>
   );
