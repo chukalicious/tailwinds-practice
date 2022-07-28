@@ -1,6 +1,6 @@
 const Exercises = () => {
   return (
-    <div id="exercises" className="flex">
+    <div id="exercises" className="flex max-w-sm">
       {" "}
       <div className="flex flex-col">
         <h3 className="text-3xl flex">Exercises</h3>
