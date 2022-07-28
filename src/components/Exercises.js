@@ -6,7 +6,7 @@ const Exercises = () => {
         <h3 className="flex mt-8 ml-15 text-6xl p-4 max-w-fit md:ml-20 md:text-4xl md:font-thin">
           Exercises
         </h3>
-        <p className="flex my-7 mx-auto ml-2 text-justify text-4xl py-2 px-3.5 m:p-4 md:ml-20 md:text-2xl md:p-2">
+        <p className="flex my-7 mx-auto ml-2 text-justify text-3xl py-2 px-3.5 m:p-4 md:ml-20 md:text-2xl md:p-2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat
           orci nulla pellentesque dignissim. Felis bibendum ut tristique et
