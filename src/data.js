@@ -30,3 +30,18 @@ export const data = [
     subtitle: "250 est calories",
   },
 ];
+
+export const trainers = [
+  {
+    url: "https://picsum.photos/300/300?random=7",
+    trainerName: "Kat",
+  },
+  {
+    url: "https://picsum.photos/300/300?random=8",
+    trainerName: "Alvaro",
+  },
+  {
+    url: "https://picsum.photos/300/300?random=9",
+    trainerName: "Gris",
+  },
+];
