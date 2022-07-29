@@ -3,7 +3,7 @@ const About = () => {
     <div className="flex flex-col w-full bg-pink-50 ">
       <div className="md:flex ">
         <div className="flex flex-col pt-16 md:justify-between md:order-last md:w-1/2">
-          <h3 className="flex  ml-15 text-6xl  max-w-fit md:ml-20 md:text-4xl md:font-thin">
+          <h3 className="flex mt-8 ml-15 text-6xl p-4 max-w-fit md:ml-20 md:text-4xl md:font-thin">
             About Us
           </h3>
           <p className="flex my-7 mx-auto ml-2 text-justify text-3xl py-2 px-3.5 m:p-4 md:ml-20 md:text-2xl md:p-2">
@@ -38,7 +38,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2 flex justify-center my-10 p-2 ">
+        <div className="md:w-1/2 flex justify-center my-10 p-2 ">
           <img
             src="https://picsum.photos/550/450?random=6"
             className="rounded-3xl md:mt-8 md:px-4 md:py-3"
