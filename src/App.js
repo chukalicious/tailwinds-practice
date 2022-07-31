@@ -8,6 +8,7 @@ import CardContainer from "./components/CardsContainer";
 import About from "./components/About";
 import TrainerCards from "./components/TrainerCards";
 import Clients from "./components/Clients";
+import Form from "./Form";
 import Footer from "./components/Footer";
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
       <About />
       <TrainerCards />
       <Clients />
+      <Form />
       <Footer />
     </div>
   );
