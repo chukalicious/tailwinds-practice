@@ -19,7 +19,7 @@ const TrainerCards = () => {
               <img className="rounded-t-3xl " src={tr.url} alt={tr.name} />{" "}
             </div>
             <div className="flex flex-col rounded-b-3xl text-center pb-10 bg-pink-50">
-              <h4>{tr.trainerName}</h4>
+              <h4>{tr.name}</h4>
               <p>Trainer</p>
             </div>
           </div>
