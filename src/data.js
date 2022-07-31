@@ -35,13 +35,22 @@ export const trainers = [
   {
     url: "https://picsum.photos/300/300?random=7",
     trainerName: "Kat",
+    title: "Developer",
+    blurb:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec.",
   },
   {
     url: "https://picsum.photos/300/300?random=8",
     trainerName: "Alvaro",
+    title: " Ins Agent",
+    blurb:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec.",
   },
   {
     url: "https://picsum.photos/300/300?random=9",
     trainerName: "Gris",
+    title: "adorable pet",
+    blurb:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec.",
   },
 ];
